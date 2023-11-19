@@ -1,0 +1,47 @@
+.game {
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    margin: auto;
+}
+
+.title {
+    background-color: rgb(3, 1, 88);
+    margin: 5px 0;
+    padding: 5px 0;
+    font-size: 24px;
+
+}
+
+.title span {
+    color: rgb(255, 170, 0);
+    font-weight: bold;
+}
+
+.sqrs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3px;
+}
+.sqr {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(3, 1, 88);
+    cursor: pointer;
+    transition: .5s;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.sqr:hover {
+    background-color: rgb(3, 0, 207);
+}
+
+.word {
+    color: rgb(255, 170, 0);
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
